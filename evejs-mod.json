@@ -1,0 +1,50 @@
+{
+  "author": {
+    "id": "au-mvuto93ax86p",
+    "keyId": "e10f093d7721",
+    "name": "猫墩墩"
+  },
+  "category": "玩法",
+  "changelog": "",
+  "conflicts": [],
+  "delisted": false,
+  "description": "深渊突变不再随机：每个被突变的属性直接锁定在这颗质体自带区间的最优端点（CPU、能量栅格、电容需求、信号半径这类“越低越好”的属性取区间下限，伤害倍率、速度系数这类“越高越好”的属性取区间上限）。纯服务端运行期补丁，只改 dynamicItemService 里突变取模的那两行；不改静态表、不改客户端文件、不新增类型、不写数据库。",
+  "displayName": "突变锁定最优值",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/xfeiyu4008/evejs-mod-evejs-perfect-mutation-261028/releases/download/v1.0.0/evejs-perfect-mutation-261028-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "261028.x",
+    "261028.1"
+  ],
+  "featured": false,
+  "highlights": [
+    "模组目录：`E:\\EveJS-261028.1\\Mods\\evejs-perfect-mutation-261028\\`",
+    "类型：`loader`，服务端源码补丁（运行期注入）",
+    "需要重启：**是**（服务端启动时才注入）",
+    "改动的磁盘文件：**零**（不改服务器源码、不改客户端任何文件、不改静态表、不写数据库）"
+  ],
+  "history": [],
+  "id": "evejs-perfect-mutation-261028",
+  "publishedAt": "2026-11-09",
+  "readme": [
+    "给 **EveJS 261028.1** 服务端用的模组：把深渊突变从\"随机滚一次\"改成\"直接落在质体区间的\n最优端点\"——突变完就是这颗质体理论上最好的结果。",
+    "---"
+  ],
+  "repo": "https://github.com/xfeiyu4008/evejs-mod-evejs-perfect-mutation-261028",
+  "requiresRestart": true,
+  "sha256": "6d2c106065d49440cf845dff23372eec4d574e618870a7ad488af68fc56f9fb0",
+  "sizeBytes": 25697,
+  "tags": [
+    "突变",
+    "深渊",
+    "质体",
+    "动态物品",
+    "261028"
+  ],
+  "version": "1.0.0"
+}
